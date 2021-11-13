@@ -16,7 +16,7 @@ function getDataFetch(url) {
     })
 };
 
-getDataFetch("http://api.football-data.org/v2/competitions/2014/standings");
+getDataFetch("https://api.football-data.org/v2/competitions/2014/standings");
 
 function tablaclas(table) {
 
