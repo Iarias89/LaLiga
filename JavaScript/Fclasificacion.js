@@ -1,5 +1,5 @@
-function getDataFetch() {
-    const url = "http://api.football-data.org/v2/competitions/2014/standings";
+function getDataFetch(url) {
+    
     fetch(url, {
         method: "GET",
         headers: {
@@ -16,7 +16,7 @@ function getDataFetch() {
     })
 };
 
-getDataFetch();
+getDataFetch("http://api.football-data.org/v2/competitions/2014/standings");
 
 function tablaclas(table) {
 
