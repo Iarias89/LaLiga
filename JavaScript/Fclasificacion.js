@@ -5,12 +5,13 @@ function getDataFetch() {
         headers: {
             "X-Auth-Token": "1bd6971d178b47a499541b474714b995"
         }
-    }).then(function (response) {
-        if (response.ok == true) {
+    }).then( response => {
+        if (response.ok) {
             return response.json();
         }
-    }).then(function (datos) {
-        let clasificacion = datos;
+    }).then(data => {
+        console.log(data);
+        let clasificacion = data;
         tablaclas(clasificacion.standings[0].table);
     })
 };
