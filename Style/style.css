@@ -149,10 +149,15 @@ tr :hover {
 
 /* LEYENDA */
 
+.allLeyend{
+    border: solid rgb(30, 133, 47) 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 .leyenda{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 40px;
 }
 
 .europa,
@@ -193,3 +198,25 @@ tr :hover {
     border: black solid 2px;
     background-color: red;
 }
+
+.leyenda2{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.leyen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cLeyen{
+    font-weight: bolder;
+}
+
+/* .leyenda,
+.leyenda2{
+    border: black solid 3px;
+    padding: 5px;
+} */

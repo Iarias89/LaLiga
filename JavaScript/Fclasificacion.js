@@ -30,14 +30,19 @@ function tablaclas(table) {
         posicion.innerText = table[i].position;
         if (table[i].position <= "4" ) {
             posicion.style.color = "blue"
+            posicion.style.fontWeight = "bolder"
         } if (table[i].position == "5") {
             posicion.style.color = "purple"
+            posicion.style.fontWeight = "bolder"
         } if (table[i].position == "6") {
             posicion.style.color = "purple"
+            posicion.style.fontWeight = "bolder"
         } if (table[i].position > "17") {
             posicion.style.color = "red"
+            posicion.style.fontWeight = "bolder"
         } if (table[i].position == "7") {
             posicion.style.color = "orange"
+            posicion.style.fontWeight = "bolder"
         }
         let equipo = document.createElement("p")
         equipo.innerText = table[i].team.name;
