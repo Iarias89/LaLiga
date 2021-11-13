@@ -62,15 +62,6 @@ tr :hover {
     background-color: rgb(233, 246, 110);
 }
 
-.carousel {
-    width: 900px;
-    height: 490px;
-    margin-top: 5%;
-    display: flex;
-    margin-left: 26.5%;
-    margin-bottom: 100px;
-}
-
 .input {
     text-align: center;
 }
