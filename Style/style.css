@@ -155,3 +155,50 @@ tr :hover {
 .loader2{
     clip-path: circle(0.0% at 50% 50%);
 }
+
+/* LEYENDA */
+
+.leyenda{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.europa,
+.conference,
+.champion,
+.descenso{
+    width: 170px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+}
+
+.leyen1{
+    height: 20px;
+    width: 20px;
+    border: black solid 2px;
+    background-color:blue;
+}
+
+
+.leyen2{
+    height: 20px;
+    width: 20px;
+    border: black solid 2px;
+    background-color:purple;
+}
+
+.leyen3{
+    height: 20px;
+    width: 20px;
+    border: black solid 2px;
+    background-color:orange;
+}
+
+.leyen4{
+    height: 20px;
+    width: 20px;
+    border: black solid 2px;
+    background-color: red;
+}

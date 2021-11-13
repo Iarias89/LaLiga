@@ -29,7 +29,7 @@ function tablaclas(table) {
         let posicion = document.createElement("p")
         posicion.innerText = table[i].position;
         if (table[i].position <= "4" ) {
-            posicion.style.color= "blue"
+            posicion.style.color = "blue"
         } if (table[i].position == "5") {
             posicion.style.color = "purple"
         } if (table[i].position == "6") {
