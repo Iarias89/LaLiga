@@ -28,7 +28,17 @@ function tablaclas(table) {
 
         let posicion = document.createElement("p")
         posicion.innerText = table[i].position;
-
+        if (table[i].position <= "4" ) {
+            posicion.style.color= "blue"
+        } if (table[i].position == "5") {
+            posicion.style.color = "purple"
+        } if (table[i].position == "6") {
+            posicion.style.color = "purple"
+        } if (table[i].position > "17") {
+            posicion.style.color = "red"
+        } if (table[i].position == "7") {
+            posicion.style.color = "orange"
+        }
         let equipo = document.createElement("p")
         equipo.innerText = table[i].team.name;
 
@@ -60,7 +70,7 @@ function tablaclas(table) {
         equipoImg.setAttribute("src", table[i].team.crestUrl);
         equipoImg.classList.add("escudos")
 
-        let datosClasificacion = [posicion, equipoImg, equipo, pJugados, pGanados, pEmpatados, pPerdidos, pTotales, gFavor, gContra, difGoles];
+        let datosClasificacion = [posicion, equipoImg, equipo, pTotales, pJugados, pGanados, pEmpatados, pPerdidos, gFavor, gContra, difGoles];
 
         for (let x = 0; x < datosClasificacion.length; x++) {
 
