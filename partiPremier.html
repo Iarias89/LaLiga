@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partidos Premier League</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/stylePremier.css">
+</head>
+
+<body>
+    <div class="lds-ring loader" id="load">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light navcolor">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="homePremier.html"><img src="Imagenes/logo-premier-league.jpg" alt=""
+                    width=" 60" height="60"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="partiPremier.html">Partidos</a>
+                    <a class="nav-link" href="clasipremier.html">Clasificación</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="cuerpo">
+        <div class="encabezado">
+            <h1>Partidos</h1>
+        </div>
+        <div class="input">
+            <input type="text" class="input1" placeholder="Buscar equipo" id="equipo">
+        </div>
+        <div class="container table-responsive">
+            <table class="table align-middle clasi">
+                <thead>
+                    <th>Jornada<input type="text" class="buscador" placeholder="Buscar jornada" name="srcJornada"
+                            id="srcJornada1"></th>
+                    <div>
+                        <th colspan="2">
+                    </div>Equipo Local <div><input type="text" placeholder="Buscar local" class="buscador"
+                            id="srcLocal1" name="srcLocal"></div>
+                    </th>
+                    <th>Resultado<input type="text" placeholder="Buscar result" class="buscador" id="srcResul1"
+                            name="srcResul"></th>
+                    <th colspan="2">Equipo visitante<input type="text" placeholder="Buscar visitante" class="buscador"
+                            id="srcVisit1" name="srcVisit"></th>
+                    <th>Fecha partido<input type="text" placeholder="Buscar fecha" class="buscador" id="srcFecha1"
+                            name="srcFecha"></th>
+                </thead>
+                <tbody id="tabla">
+
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="Javascript/parPremier.js">
+    </script>
+</body>
+
+</html>
